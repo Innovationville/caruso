@@ -11,6 +11,12 @@
 
 <body>
 
+    <div id="nav">
+        <a href="#our_vision_header">Our Vision</a>
+        <a href="#need_a_charge">Need a charge?</a>
+        <a href="#architektur_header">The Architecture</a>
+        <a href="#container-12">The Process</a>
+    </div>
     <!-- THE EASIEST WAY TO CHARGE -->
     <div id="container-1">
         <div id="welle_ganz_oben">
@@ -41,17 +47,18 @@
 
             <div id="plain_our_vision_text">
                 <p id="our_vision_header">Our Vision</p>
-                <p>Charging an electric car takes way longer than fueling an ordinary car.
-                    Due to this we made an app that helps the user to plan the charging process of the car.
-                    With E-Charge we wanted to give you a quick overview of all electric charging stations
-                    in your nearby area and make it as easy as possible to book one.
+                <p>
+                    Charging an electric vehicle takes much longer than fueling up a regular combustion engine car. To
+                    counter this problem we have developed an app to help you plan the charging process of your car.
+                    With ECharge we want to give you an intuitive overview of all electric charging stations in your
+                    area and make it as easy as possible to book one.
+
                     <br><br>
-                    The usage of car data delivered by Caruso is its greatest advantage.
-                    Information such as the battery status,
-                    your cars location or prices and locations of charging stations are accessible by just one click.
-                    The main focus is a super effortless user experience.
-                    You should be able to book a station as quick as a traffic light stop and
-                    navigate through the app without any complications.</p>
+                    The usage of car data delivered by Caruso is perhaps its greated advantage. Information such as the
+                    battery status, your car's location or prices and locations of charging stations are accessible with
+                    just one click. The main focus of the app is an effortless user experience. We want you to be able
+                    to book as quickly as possible and navigate through the app without any complications.
+                </p>
             </div>
         </div>
     </div>
@@ -76,15 +83,17 @@
             <div id="plain_need_a_charge_text">
                 <p id="need_a_charge_header">Need a charge?</p>
                 <p id="need_a_charge_text">
-                    The app is designed around the home screen.
-                    Here you get all the necessary information you need like the cars battery status,
+
+                    The app is designed around the home screen. Here you can view all necessary information you need,
+                    such as the car's battery status,
                     a small map with your location and the current range of your car.
-                    The home screen acts as a starting point from which you can start looking for and
-                    booking a station or get deeper information of your car.
-                    Via the Navbar you can jump to the map or the list to start looking for charging stations.
-                    The map is most useful when your are looking for a station in your
-                    near surrounding whereas the list gives you more information
-                    and provides you an opportunity to sort the stations after specific categories.
+                    The home screen acts as a starting point from which you can start looking for and booking a station
+                    or get more information about your car.
+                <br/><br/>    With the navbar you can jump to the map or the list to start looking for charging stations.
+                    The map is most useful when your are looking for a station in your area whereas the list gives you
+                    more information and provides you with
+                    an opportunity to sort the stations after specific categories.
+
                 </p>
             </div>
 
@@ -114,7 +123,7 @@
                 <img class="img-full-size" src="images/svg_elements/welle_duenn.svg" alt="">
             </div>
 
-             <div id="suche_links">
+            <div id="suche_links">
 
                 <img id="adress_map" src="images/svg_elements/iphone/adress_map.svg">
                 <!-- <div id="adresse">
@@ -124,30 +133,33 @@
                 <div id="map">
                     <img id="iphone_mit_map" src="images/svg_elements/iphone/iphone_mit_map.svg" alt="">
                 </div> -->
-            </div> 
+            </div>
 
 
             <div id="container-8">
                 <div id="search_by_list_header">
 
-                    <p>... or by list<p>
-                    
+                    <p>... or by list
+                    <p>
+
                         <img id="listen_icon" src="images/svg_elements/icons/listen_icon.svg" alt="">
-                    
+
                 </div>
 
 
-            <div id="suche_rechts">
-                <p id="text_sort">
-                    Every user has different priorities and needs. We provide you the opportunity to personalize the app.
-                     You can sort by price, but if you are in a hurry you can also sort by charging speed. 
-                     If you feel extra environmental, you can search for eco-stations as well!
-                </p>
-               <img id="list_sort" src="images/svg_elements/iphone/sort_list.svg">
-              
-            </div>
+                <div id="suche_rechts">
+                    <p id="text_sort">
+                        Every user has different priorities and needs. We provide you with the opportunity to
+                        personalize your experience. You can sort by price, but if you are in a hurry you can also sort
+                        by charging speed. If you feel extra eco-friendly, you can search for stations that offer green
+                        energy as well!
 
-        </div>
+                    </p>
+                    <img id="list_sort" src="images/svg_elements/iphone/sort_list.svg">
+
+                </div>
+
+            </div>
         </div>
 
     </div>
@@ -155,8 +167,9 @@
     <div id="container-9">
         <div id="booking_header">
 
-            <p>In-App booking available!<p>
-            
+            <p>In-App booking available!
+            <p>
+
         </div>
         <div id="booking_seite">
             <img id="booking" src="images/svg_elements/iphone/booking.svg">
@@ -169,47 +182,90 @@
 
         <div id="architektur_header">
 
-            <p>The architecture behind our App<p>
-            <img id="echarge_icon" src="images/svg_elements/icons/echarge_icon.svg">
+            <p>The architecture behind our App
+            <p>
+                <img id="echarge_icon" src="images/svg_elements/icons/echarge_icon.svg">
         </div>
 
         <div id="architektur_text">
-            <p>The system is divided into three parts. These are the subsystems that are typical for web applications, namely a frontend, a backend, and a database. 
-                This separation takes workload off the user’s computer, makes for easier testing of the application and ensures that data is securely stored. 
+            <p>The system is divided into three parts. These are the subsystems that are typical for web applications,
+                namely a frontend, a backend, and a database. This separation takes workload off the user’s computer,
+                makes for easier testing of the application and ensures that data is securely stored. The architecture
+                of the system is loosely based on the MVC design pattern. Different system parts in the backend
+                represent the model and controller. The view is implemented in the front end.
 
-                The architecture of the system is loosely based on the MVC design pattern. 
-                Different system parts in the backend represent the model and controller. 
-                The view is implemented in the front end.</p>
+            </p>
         </div>
 
         <div>
-           <img id="architecture_img" src="images/svg_elements/architektur.svg"> 
+            <img id="architecture_img" src="images/svg_elements/architektur.svg">
         </div>
     </div>
 
     <div id="container-11">
         <div id="tech_header">
 
-            <p>Tech & Framework<p>
-            <img id="setting" src="images/svg_elements/icons/setting_icon.svg">
+            <p>Tech & Framework
+            <p>
+                <img id="setting" src="images/svg_elements/icons/setting_icon.svg">
         </div>
 
-        <div id="auto_text" >
-            
-            <p id="text_auto" >In the frontend contemporary languages HTML and CSS are used along with functionalities provided by the framework Ionic to implement the user interface.
-                 The underlying logic is implemented using TypeScript and the framework Angular. 
-                The maps are implemented using features offered by the Leaflet, MapTiler and OpenRouteService APIs.
+        <div id="auto_text">
 
-                In the backend Java 8 is used to implement the system’s main logic along with the framework Spring Boot. 
-                A MySQL database is used to store all data regarding charging stations as well as user data.
+            <p id="text_auto">In the frontend contemporary languages HTML and CSS are used along with functionalities
+                provided by the framework Ionic to implement the user interface. The underlying logic is implemented
+                using TypeScript and the framework Angular. The maps are implemented using features offered by the
+                Leaflet, MapTiler and OpenRouteService APIs. In the backend Java 8 is used to implement the system’s
+                main logic along with the framework Spring Boot. A MySQL database is used to store all data regarding
+                charging stations as well as user data.
             </p>
-                <img id="auto_recht" src="images/svg_elements/autos/auto_recht.svg">
-            </div>
+            <img id="auto_recht" src="images/svg_elements/autos/auto_recht.svg">
+        </div>
 
-            <img id="auto_links" src="images/svg_elements/autos/auto_links.svg">
+        <img id="auto_links" src="images/svg_elements/autos/auto_links.svg">
     </div>
 
-<img id="end" src="images/svg_elements/end.svg" >
+    <div id="container-12">
+        <div id="tech_header">
+            <p>The Process</p>
+
+        </div>
+        <div id="process_text">
+            <p>
+                Team Innovationville works according to a modified Scrum process.
+                There is no Scrum Master and the role of Product Owner is fullfilled by the team and their contact
+                person from Caruso.
+            </p>
+            <p>
+            </p>
+            The Sprint: A sprint is one week long and starts on Tuesday at 3pm and ends on the following Tuesday at
+            the same time.
+            </p>
+            <p>
+                Sprint Planning Meeting: The Sprint Planning Meeting is every Tuesday at 3pm and takes two hours.
+                During this meeting the team discusses what needs to be done and how they want to achieve it.
+            </p>
+            <p>
+                Daily Scrum: Every day at 9am the team meets in a Discord voice chat to discuss what they did
+                yesterday, what they are planning on doing today and what problems they encountered.
+            </p>
+
+            <p>
+                Sprint Retrospective: Every Tuesday at 2:30pm the team reflects on the last Sprint for 30 minutes.
+            </p>
+
+
+            <p>
+                Sprint Review: Every Wednesday at 10am the team presents their product increment. Every Tuesday at 5pm
+                the next
+                steps are discussed with the team's contact person to ensure the quality of the product.
+            </p>
+
+
+            </p>
+        </div>
+    </div>
+    <img id="end" src="images/svg_elements/end.svg">
 
     <!-- <img id="gerade_linie" src="images/svg_elements/gerade_linie.svg" alt="">
     <img id="iphone_mit_booking_1" src="images/svg_elements/iphone/iphone_mit_booking_1.svg" alt="">
@@ -225,8 +281,8 @@
 
     <!-- <img src="images/page.png" id="logo" alt=""> -->
 
-    <p id="impressum" >
-        <a href="https://www.informatik.hs-mannheim.de/impressum.html">Impressum</a>  
+    <p id="impressum">
+        <a href="https://www.informatik.hs-mannheim.de/impressum.html">Impressum</a>
     </p>
 
 </body>
