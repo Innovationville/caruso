@@ -1,3 +1,5 @@
+
+
 body {
     margin: 0;
     width: 85%;
@@ -33,6 +35,7 @@ body {
 
 #welle_ganz_oben > img {
     width: 100%;
+    height: 100%;
     margin-top: -6.15%;
 }
 
@@ -117,13 +120,15 @@ body {
 
 #container-3 {
     margin-top: 50%;
-    display: grid;
 }
 
 #grosse_welle, #linie_ueber_grosse_welle, #iphone_iso {
     grid-area: 1 / 1;
 }
 
+#iphone_iso {
+    position: absolute;
+}
 #iphone_iso > img {
     width: 100%;
 
@@ -410,7 +415,7 @@ justify-content: space-evenly;
 #tech_header{
     align-items: center;
     display: flex;
-    font-size: 2.5em;
+    font-size: 3.5vw;
     margin-left: 8%;
 }
 
