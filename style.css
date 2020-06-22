@@ -415,7 +415,7 @@ justify-content: space-evenly;
 #tech_header{
     align-items: center;
     display: flex;
-    font-size: 3.5vw;
+    font-size: 2.5em;
     margin-left: 8%;
 }
 
