@@ -57,11 +57,11 @@ body {
 }
 
 #title-text > h1 {
-    font-size: 1.8em;
+    font-size: 2.5em;
 }
 
 #title-text > h2 {
-    font-size: 0.8em;
+    font-size: 1em;
     float: right;
     margin-top: -4%;
 }
